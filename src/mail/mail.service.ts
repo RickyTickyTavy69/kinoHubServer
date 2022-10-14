@@ -8,7 +8,7 @@ export class MailService {
     async sendUserConfirmation(user, email) {
         try{
             await this.mailerService.sendMail({
-                to: user.email,
+                to: email,
                 subject: "Thank you for placing order!",
                 text: "Whatsupp man, thank you for buy sits in our Kino! We hope you enjoy the show"
             })
