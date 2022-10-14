@@ -10,7 +10,7 @@ import {EjsAdapter} from "@nestjs-modules/mailer/dist/adapters/ejs.adapter";
       secure: false,
       auth: {
         user: 'bakirovartem69@gmail.com',
-        pass: "nuncarendirse666",
+        pass: "zgfugjwqdvrqwlmy",
       },
     },
     defaults: {
