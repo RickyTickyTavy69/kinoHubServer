@@ -1,7 +1,7 @@
 import {Body, Controller, Get, Post} from '@nestjs/common';
 import {createBooking} from "./dto/booking.dto";
 import {BookingsService} from "./bookings.service";
-import {Booking} from "./schemas/booking.schema";
+
 
 @Controller('bookings')
 export class BookingsController {
